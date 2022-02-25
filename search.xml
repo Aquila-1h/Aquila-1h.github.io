@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>CCP_lecture1_note</title>
+      <link href="/2022/02/25/ccp_lecture1/"/>
+      <url>/2022/02/25/ccp_lecture1/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>Edited by 颍川散人</th><th>Data: 2022.2.23</th></tr></thead></table><ul><li><p>KB(10^3)和KIB(2^10)，同样有M，G，T等</p></li><li><p>personal mobile device (PMD)：电池，联网，贵（卡脖子在电池</p></li><li><p>Cloud Computing：</p><p>Warehouse Scale Computers (WSCs)（大规模云计算，集群，阿里云百度云等，耗能大）</p><p>Software as a Service (SaaS)（平台无关的程序，底层虚拟机，负载平衡，任务可拆分）</p></li><li><p>机器语言，软硬件接口，什么决定程序的性能</p></li><li><p>performance &amp; cost (最少的cost做出最高的性能)</p></li><li><p>Performance（后两项为本课程的任务）</p><ul><li>Algorithm</li><li>Programming language, compiler, and architecture（语言，编译器，体系结构）</li><li>Processor and memory system（处理器，内存）</li><li>I/O system (hardware and operating system)</li></ul></li><li><p>Eight Great Ideas in Computer Architecture</p><ul><li>Design for Moore’s Law（摩尔定律）</li><li>Use Abstraction to Simplify Design（抽象简化设计）</li><li>Make the Common Case Fast（常用的跑得快一点）</li><li>Performance via Parallelism（并行）</li><li>Performance via Pipelining（流水线）</li><li>Performance via Prediction（预测）</li><li>Hierarchy of Memories（内外存层次化设计）</li><li>Dependability via Redundancy（可靠性，取舍可靠性和性能）</li></ul></li><li><p>Levels of Program Code(High-level language–Assembly language–Hardware representation从高级语言到底层)</p></li><li><p>冯诺伊曼架构</p></li><li><p>触摸屏（输入输出合二为一）</p><ul><li>multiple touch（并联数据通路，可以一起编码</li></ul></li><li><p>LCD screen（frame buffer）</p></li><li><p>存储</p><ul><li>volatile（断电数据丢失–内存）</li><li>nonvolatile memory（外存）（磁盘（易于恢复 ），flash盘（不能恢复数据），光盘（长期保存））</li></ul></li><li><p>网络</p></li><li><p>Defining performance: response time(反应时间），throughput（吞吐量–单位时间能做多少任务）</p></li><li><p>性能主要看cpu时间，并行时考虑吞吐量</p></li><li><p>relative performance</p></li><li><p>measuring executing time（主要算cpu时间）</p></li><li><p>CPU time ：周期数乘以周期时间（以高频率，主频越高越好）clock time * clock cycles</p></li><li><p>CPU Time = （instruction Count * CPI）/Clock Rate（指令数乘以完成每个指令需要的周期数）</p></li><li><p>CPI = 周期数 / 指令数 （平均每个指令的周期数）</p></li><li><p>Power C =0.5* apacitiveload * Voltage * Frequency switched</p></li><li><p>Multiprocessors（片内并行，降低主频，重点在于装载平衡，优化同步通讯）</p></li><li><p>CPU Benchmark（CPU 跑分）（找到CPU的缺陷）（算性能算power）</p><ul><li>SPEC CPU Benchmark</li><li>SPEC POWER Benchmark</li></ul></li><li><p>Amdahl’s Law（改进了多少）改进后 = 改进部分/改进倍数 + 未改进部分</p></li><li><p>Concluding Remarks</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> CCP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> note </tag>
+            
+            <tag> CCP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DB_Lab1 DBMS的安装和使用</title>
       <link href="/2022/02/25/DB_Lab1/"/>
       <url>/2022/02/25/DB_Lab1/</url>
